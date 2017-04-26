@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MetaCoin - Truffle Webpack Demo w/ Frontend</title>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>RPS</h1>
+  <h3>Player 1: <span id='p1'></span></h3>
+  <h3>Player 2: <span id='p2'></span></h3>
+  <h3>Choice 1: <span id='c1'></span></h3>
+  <h3>Choice 2: <span id='c2'></span></h3>
+  <h3>Winner: <span id='winner'></span></h3>
+  <h3>Current player: <span id='currentPlayer'></span> <button id="togglePlayer" onclick="App.toggle()">Toggle player</button>
+</h3>
+  <br>
+  <h1>Subscribe</h1>
+  <br><button id="subscribe" onclick="App.subscribe()">Subscribe</button>
+  <br><br><h1>Play</h1>
+  <br><br><button id="playRock" onclick="App.play('rock')">Rock</button>
+  <br><br><button id="playPaper" onclick="App.play('paper')">Paper</button>
+  <br><br><button id="playScissors" onclick="App.play('scissors')">Scissors</button>
+</body>
+</html>
